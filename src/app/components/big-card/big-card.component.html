@@ -8,12 +8,12 @@
   </div>
 
   <div class="big-card__title">
-    <a href="#">{{ cardTitle }}</a>
+    <a [routerLink]="['content', id]">{{ cardTitle }}</a>
   </div>
 
   <div class="big-card__description">
     <p>
-      <a href="#"> {{ cardDescription }}
+      <a [routerLink]="['content', id]"> {{ cardDescription }}
       </a>
     </p>
   </div>
